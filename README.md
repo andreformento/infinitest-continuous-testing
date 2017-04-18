@@ -7,9 +7,9 @@ http://blog.caelum.com.br/executando-testes-de-unidade-continuamente-com-infinit
 ## Configure
 After install plugin, change the configuration on Intellij
 ```
-Settings -> Builder, Execution, Deployment -> Compiler -> Build project automatically
+File -> Settings -> Builder, Execution, Deployment -> Compiler -> Build project automatically
 ```
-And project facet, add
+And add a new project facet
 ```
-Project Structure -> Facets -> Add -> Infinitest -> Select project -> OK
+File -> Project Structure -> Facets -> Add -> Infinitest -> Select project -> OK
 ```

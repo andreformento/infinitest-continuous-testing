@@ -11,11 +11,11 @@ public class ProductTest {
     @Test
     public void shouldCreateAndConfigureProduct() {
         // given
-        String description = "Smartphone";
-        BigDecimal price = new BigDecimal(800);
+        final String description = "Smartphone";
+        final BigDecimal price = new BigDecimal(850);
 
         // when
-        Product smartphone = new Product(description, price);
+        final Product smartphone = new Product(description, price);
 
         // then
         assertEquals(description, smartphone.getDescription());
