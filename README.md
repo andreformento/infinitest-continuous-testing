@@ -6,4 +6,6 @@ http://blog.caelum.com.br/executando-testes-de-unidade-continuamente-com-infinit
 
 ## Configure
 After install plugin, change the configuration on Intellij
+```
 Builder, Execution, Deployment -> Compiler -> Build project automatically
+```
