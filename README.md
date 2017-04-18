@@ -11,5 +11,5 @@ File -> Settings -> Builder, Execution, Deployment -> Compiler -> Build project 
 ```
 And add a new project facet
 ```
-File -> Project Structure -> Facets -> Add -> Infinitest -> Select project -> OK
+File -> Project Structure -> Facets -> Add -> Infinitest -> Select project -> OK -> OK
 ```
